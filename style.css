@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+.container{
+    height: 500px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 2px 4px #777;
+    text-align: center;
+}
+.container h1{
+    margin: 15px;
+}
+input.inp{
+    margin: 15px 0;
+    height: 40px;
+    width: 280px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: rgb(241, 239, 239);
+    padding: 0 40px;
+}
+i{
+    font-size: 20px;
+    margin: 25px 10px;
+    position: absolute;
+    color: rgb(129, 123, 123);
+}
+.remember{
+    margin: 10px 0;
+}
+.login{
+    margin: 30px 0;
+}
+button{
+    padding: 10px 100px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 650;
+    font-size: 18px;
+    background: #049EEE;
+    color: white;
+}
+.facebook{
+    transform: translate(-160px, 0);
+}
+.twitter{
+    transform: translate(15px, 0);
+}
+.facebook i{
+    margin: 35px 15px;
+    padding: 10px 15px;
+    background: #1877f2;
+    color: white;
+    cursor: pointer;
+}
+.twitter i{
+    margin: 35px 15px;
+    padding: 10px 20px;
+    background: #1da1f2;
+    color: white;
+    cursor: pointer;
+}
+i a{
+    margin: 0 5px;
+    color: white;
+}
+
+.signup{
+    transform: translate(0, 115px);
+}
+.signup a{
+    color: darkblue;
+}
+.signup a:hover{
+    text-decoration: underline;
+
+}
